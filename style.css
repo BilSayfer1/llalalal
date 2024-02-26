@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+
+   
+}
+
+.container {
+    width: 1200px;
+    height: 600px;
+}
+
+.obshiy {
+    margin-left: 20px;
+}
+
+
+input { 
+    margin-top: 5px;
+    border-radius: 5px;
+    padding: 2px;
+    width: 300px;
+    height: 60px;
+}
+
+
+h5 {
+    margin-top: 8px;
+    color: gray;
+}
+
+.left {
+    margin-left: 240px;
+    margin-top: 150px;
+}
+
+.right {
+    margin-top: -600px;
+    margin-left: 640px;
+}
+
+.name h4 {
+    color: blueviolet;
+}
+
+.name input {
+
+    border: 2px solid blueviolet;
+}
+
+.surname h5 {
+    margin-top: 8px;
+}
+
+.surname {
+    margin-top: 8px;
+}
+
+h4 {
+    margin-top: 10px;
+}
+.col input {
+    border: 2px solid blue;
+}
+
+
+.btn button {
+    border-radius: 5px;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 250px;
+    height: 40px;
+    background-color: rgb(64, 50, 154);
+    color: white;
+    border: none;
+}
+
+.error {
+    color: red;
+}
+
+.error input {
+    border-color: red;
+}
+.main h1 {
+    color: white;
+    text-align: center;
+}
+.error::after {
+    content: "";
+    display: flex;
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    right: -30px;
+    background-size: cover;
+    top: 35px;
+    background-image: url(./img/warning-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.glav {
+    display: flex;
+    padding: 0px 460px;
+}
+
+body {
+    background-image: url(./img/ronaldo.jpeg);
+}
+
